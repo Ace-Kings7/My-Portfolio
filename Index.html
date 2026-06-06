@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humphrey Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="particle-background" aria-hidden="true">
+        <span class="particle"></span>
+        <span class="particle"></span>
+        <span class="particle"></span>
+        <span class="particle"></span>
+        <span class="particle"></span>
+        <span class="particle"></span>
+        <span class="particle"></span>
+        <span class="particle"></span>
+        <span class="particle"></span>
+        <span class="particle"></span>
+        <span class="particle"></span>
+        <span class="particle"></span>
+    </div>
+    <header class="header">
+        <div class="logo">Ace Kings</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <img id="toggle-icon-img" src="/Images/brightness_2_24dp_E3E3E3_FILL1_wght400_GRAD0_opsz24.svg" alt="Toggle theme">
+        </button>
+    </header>
+
+    <main class="hero" id="home">
+        <div class="hero-copy">
+            <p class="hero-intro">Hi, I'm</p>
+            <h1 id="hero-title"></h1>
+            <p> Based In Nairobi, Kenya</p>
+            <p id="hero-role" class="hero-role"></p>
+            <p class="hero-description">
+                I like creating beautiful, functional and user-friendly applications. I love turning ideas into reality through clean code and innovative solutions.
+            </p>
+            <div class="hero-links">
+                <a class="button primary" href="#projects">View Projects</a>
+                <a class="button secondary" href="#about">About Me</a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="visual-card">
+                <div class="visual-top-bar">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="visual-screen">
+                    <div class="mock-window">
+                        <div class="mock-header"></div>
+                        <div class="mock-content">
+                            <div class="code-line short"></div>
+                            <div class="code-line long"></div>
+                            <div class="code-line medium"></div>
+                            <div class="code-line long"></div>
+                            <div class="code-line short"></div>
+                        </div>
+                    </div>
+                    <div class="visual-photo"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section id="projects">
+        <div class="section-header">
+            <h2>My <span>Projects</span></h2>
+        </div>
+        <div class="project-grid">
+            <article class="project-card">
+                <h3>CBC App</h3>
+                <p>A full-stack educational app solution with React, Node.js, and MongoDB.</p>
+                <div class="project-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">MongoDB</span>
+                    <span class="tag">Tailwind CSS</span>
+                </div>
+                <div class="project-actions">
+                    <a class="project-action" href="#">⌨ Code</a>
+                    <a class="project-action" href="#">↗ Demo</a>
+                </div>
+            </article>
+            <article class="project-card">
+                <h3>Website Attack Detection and Incident Alert System</h3>
+                <p>A system that monitors website traffic for suspicious activities and sends real-time alerts when potential threats are detected.</p>
+                <div class="project-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">MySQL</span>
+                </div>
+                <div class="project-actions">
+                    <a class="project-action" href="#">⌨ Code</a>
+                    <a class="project-action" href="#">↗ Demo</a>
+                </div>
+            </article>
+            <article class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>Modern portfolio with clean animations and a responsive design.</p>
+                <div class="project-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+                <div class="project-actions">
+                    <a class="project-action" href="#">⌨ Code</a>
+                </div>
+            </article>
+        </div>
+    </section><br><br>
+
+    <section id="experience" class="experience-section">
+        <div class="section-header">
+            <h2>My <span>Experience</span></h2>
+        </div>
+        <div class="experience-columns">
+            <div class="experience-panel">
+                <div class="panel-heading">
+                    <div class="panel-icon">🧳</div>
+                    <div>
+                        <h3>Work Experience</h3>
+                    </div>
+                </div>
+                <div class="panel-card">
+                    <h4></h4>
+                    <p class="panel-subtitle"></p>
+                    <p class="panel-date"></p>
+                    <p>Currently unemployed.</p>
+                </div>
+            </div>
+            <div class="experience-panel">
+                <div class="panel-heading">
+                    <div class="panel-icon">🎓</div>
+                    <div>
+                        <h3>Education</h3>
+                    </div>
+                </div>
+                <div class="panel-card">
+                    <h4>Bachelor of Science in Information Technology</h4>
+                    <p class="panel-subtitle">Mount Kenya University</p>
+                    <p class="panel-date">2024 - Present</p>
+                    <p>Specialized in Software Engineering, Web Development and Cybersecurity.</p>
+                </div>
+                <div class="panel-card">
+                    <h4>High School Education</h4>
+                    <p class="panel-subtitle">Leshau Boys High School</p>
+                    <p class="panel-date">2019 - 2022</p>
+                    <p>Focused on Computer Studies and System Design.</p>
+                </div>
+                <div class="panel-card">
+                    <h4>Primary School Education</h4>
+                    <p class="panel-subtitle">Olkalou Disabled Children's Home</p>
+                    <p class="panel-date">2008 - 2018</p>
+                    <p>Completed primary education with a strong emphasis on foundational skills and community involvement.</p>
+                </div>
+            </div>
+        </div>
+    </section><br><br>
+
+    <section id="about">
+        <div class="section-header">
+        <h2>About<span> Me</span></h2>
+        </div>  
+        <div class="about-card">
+            <div class="about-copy">
+                <p1>I'm a full-stack developer in building web applications. I specialize in creating scalable, user-friendly solutions that solve real-world problems.</p>
+                <p2>When I'm not coding, you can find me exploring new technologies and contributing to open-source projects</p>
+            </div>
+
+            <div class="about-section">
+                <h3>Skills &amp; Technologies</h3>
+                <div class="skill-chips">
+                    <span class="skill-chip">JavaScript</span>
+                    <span class="skill-chip">CSS</span>
+                    <span class="skill-chip">React</span>
+                    <span class="skill-chip">React Native</span>
+                    <span class="skill-chip">Python</span>
+                    <span class="skill-chip">HTML</span>
+                    <span class="skill-chip">MySQL</span>
+                    <span class="skill-chip">Three.Js</span>
+                </div>
+            </div>
+
+            <div class="about-section">
+                <h3>Connect With Me</h3>
+                <div class="social-links">
+                    <a class="social-link" href="https://github.com/">
+                        <img class="social-icon" src="Images/github-svgrepo-com.svg" alt="GitHub icon">
+                        <span>GitHub</span>
+                    </a>
+                    <a class="social-link" href="mailto:hmungaih@gmail.com">
+                        <img class="social-icon" src="Images/email-8-svgrepo-com.svg" alt="Email icon">
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+        </div> <br><br>
+        <p class="site-footer">© 2026 Humphrey Mungai. Built with HTML, CSS & JavaScript.</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
